@@ -34,13 +34,6 @@ public class HistogramDisplay extends ApplicationFrame{
         for (String key : histogram.keySet()) {
             dataset.addValue(histogram.get(key),"",key);
         }        
-        /**
-        dataset.addValue(5, "", "ulpgc.es");
-        dataset.addValue(1, "", "marca.es");
-        dataset.addValue(4, "", "google.es");
-        dataset.addValue(2, "", "ull.es");
-        dataset.addValue(3, "", "youtube.es");
-        */
         return dataset;
     }
     

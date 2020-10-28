@@ -17,11 +17,8 @@ public class Kata3 {
         histogram.increment("ulpgc.es");
         histogram.increment("google.es");
         histogram.increment("youtube.es");
-        histogram.increment("youtube.es");
         histogram.increment("google.es");
         histogram.increment("youtube.es");
-        
-        
         
         HistogramDisplay histogramDisplay = new HistogramDisplay("HISTOGRAM", histogram);
         histogramDisplay.execute();
